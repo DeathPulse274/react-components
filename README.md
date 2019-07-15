@@ -70,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Dependencies Installed
 
 npm install --save faker
+
+npm install --save gh-pages
+
