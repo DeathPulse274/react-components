@@ -3,7 +3,24 @@ import ReactDOM from 'react-dom'
 
 const App = () => {
     return (
-        <div>Hey</div>
+        <div className = "ui container comments">
+            <div className="comment">
+                <a href="/" className="avatar">
+                    <img alt="avatar" />
+                </a>
+                <div className="content">
+                    <a href="/" className="author">
+                        Santhosh
+                    </a>
+                    <div className="metadata">
+                        <span className="date">Today at 6:00 PM</span>
+                    </div>
+                    <div className="text">
+                        Nice Blog Post
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 
