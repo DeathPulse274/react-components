@@ -15,6 +15,7 @@ const App = () => {
             <ApprovalCard>
             <CommentDetail author={faker.name.firstName()} timeAgo="yesterday at 4:00 PM" comments={faker.random.words()} imageSource={faker.image.avatar()} />
             </ApprovalCard>
+            
             <CommentDetail author={faker.name.firstName()} timeAgo="today at 9:00 PM"  comments={faker.random.words()} imageSource={faker.image.avatar()} />
             <CommentDetail author={faker.name.firstName()} timeAgo="yesterday at 4:00 PM" comments={faker.random.words()} imageSource={faker.image.avatar()} />
             <CommentDetail author={faker.name.firstName()} timeAgo="today at 10:00 AM" comments={faker.random.words()} imageSource={faker.image.avatar()}/>
